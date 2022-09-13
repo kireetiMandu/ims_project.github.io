@@ -1,0 +1,230 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background :linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bg1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+nav{
+    padding: 20px 100px;
+    display: flex;
+    text-align: center;
+}
+nav ul{
+    text-align: right;
+    display : inline;
+    list-style:none ;
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 4px;
+    border: 6px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none; 
+    padding: 5px;
+    box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
+    transition: all 150ms ease-in-out;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 5px 0 #75b2d5 inset, 0 0 5px 3px #6cb0d7;
+
+    
+}
+  
+
+.main {
+    text-align: center;
+    margin:100px auto ;
+    font-size: 16px;
+}
+.main h1{
+    color: skyblue;
+}
+.main p {
+
+    text-align: left;
+    margin-top:100px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-right: 400px;
+    
+
+}
+.btn {
+    margin-left: 200px;
+}
+.header .can {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.can p{
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.can .p1 {
+
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    background-color: #a6b9c5;
+    padding: 3px;
+    border-radius: 10px;
+    
+
+}
+
+.can .p2 {
+
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    background-color: #E3F1D5;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+.can .p3 {
+
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    background-color: azure;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+.can .p4 {
+
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    background-color: #FFED86;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 100px auto;
+    position: relative;
+}
+ table * {
+    position: relative;
+    
+}
+ table td, table th {
+    padding-left: 8px;
+}
+ table thead tr {
+    height: 60px;
+    background: #FFED86;
+    font-size: 16px;
+}
+ table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+}
+ table tbody tr:last-child {
+    border: 0;
+}
+ table td, table th {
+    text-align: left;
+}
+ table td.l, table th.l {
+    text-align: right;
+}
+ table td.c, table th.c {
+    text-align: center;
+}
+ table td.r, table th.r {
+    text-align: center;
+}
+ @media screen and (max-width: 35.5em) {
+    table {
+       display: block;
+   }
+    table > *, table tr, table td, table th {
+       display: block;
+   }
+    table thead {
+       display: none;
+   }
+    table tbody tr {
+       height: auto;
+       padding: 8px 0;
+   }
+    table tbody tr td {
+       padding-left: 45%;
+       margin-bottom: 12px;
+   }
+
+
+    table tbody tr td:last-child {
+       margin-bottom: 0;
+   }
+    table tbody tr td:before {
+       position: absolute;
+       font-weight: 700;
+       width: 40%;
+       left: 10px;
+       top: 0;
+   }
+    table tbody tr td:nth-child(1):before {
+       content: "name";
+   }
+    table tbody tr td:nth-child(2):before {
+       content: "roll no";
+   }
+    table tbody tr td:nth-child(3):before {
+       content: "email";
+   }
+    table tbody tr td:nth-child(4):before {
+       content: "cv";
+   }
+ 
+
+}
+ body {
+    background-color: #63747f;
+    font: 400 14px 'Calibri','Arial';
+    padding: 20px;
+}
+
+span {
+    border-color: #63747f;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #5c5c60 inset, 0 0 0 0 #7e8a91;
+    transition: all 150ms ease-in-out;
+    padding : 10px ;
+    border-radius: 8px;
+    font-size: 17px;
+}
+ span:hover {
+    box-shadow: 0 0 10px 0 #494e51 inset, 0 0 10px 4px #494e51;
+ }
+ 
